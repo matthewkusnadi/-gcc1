@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 /* Add ons */
-<<<<<<< HEAD
 /* crca */
 .crca{
 	text-decoration: none;
@@ -13,9 +12,6 @@
 	  color: #FFF;
 	}
   
-=======
-
->>>>>>> 9d61509814e3dd34c2055e6eb4542580db9e4948
 .sunday__worship,
   .prayer__meetings,
   .life__groups {
@@ -121,6 +117,22 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 480px) {
+		.sunday__worship, .prayer__meetings, .life__groups {
+			width: 100%;
+			padding: 10px;
+			margin: 10px;
+		}
+		.schedule-table {
+			display: block;
+		}
+		
+		.schedule-table > div {
+			margin-bottom: 20px; /* Adjust spacing as needed */
+		}
+		
+		.vertical-line {
+			display: none; /* Hide vertical lines on small screens */
+		}
 
 		html, body {
 			min-width: 320px;
